@@ -2,16 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LMS</title>
+    <title>Bank Management System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>welcome to library mangemnet sysetm</h1>
-    <p>this is a simple website </p>
-    <button onclick="change()" class="one">click me</button>
-<p>lets change the text </p>
-<h1 id="hi">welocome all</h1>
 
+    <h1>Bank Management System</h1>
+    <p class="subtitle">Bytenija's Bank Management System</p>
+
+    <!-- Navbar -->
+    <div class="nav">
+        <button>Dashboard</button>
+        <button>Add Customer</button>
+        <button>View Customers</button>
+        <button>Transactions</button>
+    </div>
+
+    <!-- Main Card -->
+    <div class="container">
+
+        <div class="balance-card">
+            <h2>Total Bank Balance</h2>
+            <h1 id="balance">₹ 0</h1>
+        </div>
+
+        <div class="stats">
+            <div class="card">
+                <h3>Total Customers</h3>
+                <p id="customers">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Transactions</h3>
+                <p id="transactions">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Avg Balance</h3>
+                <p id="avg">₹ 0</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
